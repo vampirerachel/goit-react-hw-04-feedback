@@ -5,6 +5,8 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <App       onClick={() => {}}
+      calcPositive={() => {}}
+      countTotal={() => {}}/>
   </React.StrictMode>
 );
